@@ -1,10 +1,11 @@
 # Birth-and-Death-by-Region-Dataset-using-SQL-and-Power-BI
 The total number of births and deaths by each region, as well as their years, are included in the birth and death by region.
-Using the birth and death by region dataset, do SQL queries and data visualization.
-Microsoft Excel was used to convert the xsl file to a csv file. The MySQL server's schema was constructed. The csv file was then uploaded into the database.
-The dataset was filtered (Where clause, Group by , Order by and limit)
- Applying aggregate functions to the dataset (sum, max, and min)
- The dataset was visualized using power BI after the query output was saved and uploaded. Text Box, Cards, Clustered Bar Chart,on the dataset were the tiles that were employed.
-
+1.To import the dataset into the MYSQL server, the dataset's xsl file was converted to a csv file.
+2.The dataset's csv file was imported into a database that was built in the MYSQL server.
+3.Using the filter clause and aggregate functions like where, sum(), max (), min(), group by and limit to query the data.
+4.The "Get data" option in Power BI was used to import the MySQL results.
+5.To verify that the data is correct and okay, each of the MYSQL data results was changed using the data transformation option.
+6.If the relationships are not satisfactory, the data modelling settings are checked and adjusted.
+8.Making a dashboard for the data utilizing various visuals, including filters, cards, text boxes, and clustered bar charts, in order to identify trends and extract insights from the dataset
 
 —
